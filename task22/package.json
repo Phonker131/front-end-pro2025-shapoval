@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "start:prod": "NODE_ENV=production node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.1.10",
+    "yargs": "^17.7.2"
+  },
+  "name": "task22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tymur Shapoval",
+  "license": "MIT",
+  "description": ""
+}
